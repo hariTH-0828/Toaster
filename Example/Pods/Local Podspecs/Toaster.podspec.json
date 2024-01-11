@@ -1,0 +1,22 @@
+{
+  "name": "Toaster",
+  "version": "0.1.0",
+  "summary": "A short description of Toaster.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hariTH-0828/Toaster",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hariTH-0828": "hariharan08112001@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hariTH-0828/Toaster.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Toaster/Classes/**/*"
+}
