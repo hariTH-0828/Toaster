@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/hariTH-0828/Toaster.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   s.source_files = 'Toaster/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'SnapKit', '~>5.6.0'
+  s.dependency 'SnapKit'
 end

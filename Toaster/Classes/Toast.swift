@@ -70,7 +70,11 @@ class Toast: UIStackView {
         self.layer.opacity = 1.0
         stateLabel.text = "success"
         stateIcon.tintColor = .systemGreen
-        stateIcon.image = UIImage(systemName: "checkmark.circle.fill")
+        if #available(iOS 13.0, *) {
+            stateIcon.image = UIImage(systemName: "checkmark.circle.fill")
+        } else {
+            fatalError("iOS Version is too low...Need iOS 13.0 to run this")
+        }
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.hide()
         }
@@ -80,7 +84,11 @@ class Toast: UIStackView {
         self.layer.opacity = 1.0
         stateLabel.text = "failed"
         stateIcon.tintColor = .systemRed
-        stateIcon.image = UIImage(systemName: "xmark.circle.fill")
+        if #available(iOS 13.0, *) {
+            stateIcon.image = UIImage(systemName: "xmark.circle.fill")
+        } else {
+            fatalError("iOS Version is too low...Need iOS 13.0 to run this")
+        }
         DispatchQueue.main.asyncAfter(deadline: .now()+2) {
             self.hide()
         }
