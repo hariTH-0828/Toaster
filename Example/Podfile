@@ -4,10 +4,9 @@ platform :ios, '10.0'
 
 target 'Toaster_Example' do
   pod 'Toaster', :path => '../'
-
+  pod 'SnapKit', '~>5.6.0'
+  
   target 'Toaster_Tests' do
     inherit! :search_paths
-
-    
   end
 end

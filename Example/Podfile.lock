@@ -1,16 +1,24 @@
 PODS:
-  - Toaster (0.1.0)
+  - SnapKit (5.6.0)
+  - Toaster (0.1.0):
+    - SnapKit (~> 5.6.0)
 
 DEPENDENCIES:
+  - SnapKit (~> 5.6.0)
   - Toaster (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   Toaster:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Toaster: cea39d9e8a9a35d1f1cdc3ab6630f01e719014ec
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Toaster: 4593195d118f130f85347f12c889dfef75e4c68d
 
-PODFILE CHECKSUM: d48cf2393680055ddb4fddc01087152adf75b506
+PODFILE CHECKSUM: 45db4d03c546430ca1e6a3a97b0ba8e648b92724
 
 COCOAPODS: 1.14.3

@@ -1,8 +1,8 @@
 {
   "name": "Toaster",
   "version": "0.1.0",
-  "summary": "A short description of Toaster.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "This toaster lib is used to display success and failed toast in UIViewController",
+  "description": "This toaster lib is used to display success and failed toast in UIViewController. Install library into project, never have to write this generic code again!",
   "homepage": "https://github.com/hariTH-0828/Toaster",
   "license": {
     "type": "MIT",
@@ -16,7 +16,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "Toaster/Classes/**/*"
+  "source_files": "Toaster/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SnapKit": [
+      "~>5.6.0"
+    ]
+  }
 }
